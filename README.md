@@ -1,48 +1,53 @@
-Java Console-Based Projects
+# Java Console-Based Projects
 
-A collection of beginner-friendly console applications developed using Core Java to practice object-oriented programming, collections, exception handling, input validation, and file handling.
+A collection of beginner-friendly console applications developed using
+**Core Java** to practice object-oriented programming, collections,
+exception handling, input validation, and file handling.
 
-Projects Included
+## Projects Included
 
-1. Student Management System
-2. Banking Management System
+1.  [Student Management System](#1-student-management-system)
+2.  [Banking Management System](#2-banking-management-system)
 
-Both projects are designed to strengthen Java programming fundamentals through practical implementation.
+Both projects are designed to strengthen Java programming fundamentals
+through practical implementation.
 
-⸻
+------------------------------------------------------------------------
 
-1. Student Management System
+# 1. Student Management System
 
-Project Overview
+## Project Overview
 
-The Student Management System is a console-based Java application that allows users to manage student records efficiently.
+The Student Management System is a console-based Java application that
+allows users to manage student records efficiently.
 
-Users can add, view, search, update, and delete student information. The application also supports grade calculation, input validation, and file-based storage if implemented in the project.
+Users can add, view, search, update, and delete student information. The
+application may also support grade calculation, input validation, and
+file-based storage, depending on the implementation.
 
-Features
+## Features
 
-* Add student records with ID, name, age, department, and marks.
-* View all registered students.
-* Search for a student using a unique ID.
-* Update existing student information.
-* Delete student records.
-* Calculate grades based on marks.
-* Validate user inputs.
-* Store student records in files for persistence, if implemented.
+-   Add student records with ID, name, age, department, and marks.
+-   View all registered students.
+-   Search for a student using a unique ID.
+-   Update existing student information.
+-   Delete student records.
+-   Calculate grades based on marks.
+-   Validate user inputs.
+-   Store student records in files for persistence, if implemented.
 
-Technologies Used
+## Technologies Used
 
-* Core Java
-* Object-Oriented Programming (OOP)
-* Java Collections Framework
-* Exception Handling
-* File Handling
-* Console-based User Interface
+-   **Language:** Java
+-   **Concepts:** Object-Oriented Programming (OOP)
+-   **Collections:** Java Collections Framework
+-   **Error Handling:** Exception handling
+-   **Storage:** File handling
+-   **Interface:** Console-based user interface
 
-Project Structure
+## Example Project Structure
 
-Example structure:
-
+``` text
 StudentManagementSystem/
 ├── src/
 │   ├── Main.java
@@ -51,77 +56,100 @@ StudentManagementSystem/
 ├── data/
 │   └── students.txt
 └── README.md
+```
 
-Note: The filenames and directories above are examples. Use the actual structure of your project.
+*Note: This is an example structure. The actual filenames and
+directories may differ.*
 
-How to Run
+## How to Run
 
-Prerequisites
+### Prerequisites
 
-Install the Java Development Kit (JDK) and verify the installation:
+Install the Java Development Kit (JDK). JDK 8 or later may be suitable,
+depending on the Java features used by the project.
 
+Check your Java installation:
+
+``` bash
 java -version
 javac -version
+```
 
-Step 1: Navigate to the Project
+### Step 1: Open the Project Directory
 
-Open a terminal in the Student Management System directory.
+Open a terminal in the Student Management System directory:
 
+``` bash
 cd StudentManagementSystem
+```
 
-Step 2: Compile the Java Files
+### Step 2: Compile the Java Files
 
-If the source files are inside src/ and do not use package declarations:
+If the Java source files are directly inside `src/` and do not use
+package declarations, run:
 
+``` bash
 javac -d out src/*.java
+```
 
-Step 3: Run the Application
+This compiles the source files and places the generated `.class` files
+in the `out` directory.
 
-If the main class is named Main:
+### Step 3: Run the Application
 
+If the main class is named `Main`, run:
+
+``` bash
 java -cp out Main
+```
 
-The application will start and display its menu in the console.
+The application should start and display its console menu.
 
-⸻
+*Note: Adjust these commands if your project uses packages, a different
+source directory, or a different main class name.*
 
-2. Banking Management System
+------------------------------------------------------------------------
 
-Project Overview
+# 2. Banking Management System
 
-The Banking Management System is a console-based Java application that simulates basic banking operations.
+## Project Overview
 
-It allows users to create accounts, deposit money, withdraw money, check account balances, and view account details.
+The Banking Management System is a console-based Java application that
+simulates basic banking operations.
 
-The project demonstrates object-oriented programming, input validation, and basic transaction logic.
+It allows users to create accounts, deposit money, withdraw money, check
+account balances, and view account details.
 
-This project is intended for educational purposes and is not designed for real banking transactions.
+This project demonstrates object-oriented programming, input validation,
+and basic transaction logic.
 
-Features
+**Disclaimer:** This project is intended for educational purposes and is
+not designed for real banking transactions.
 
-* Create new bank accounts.
-* View account details.
-* Search for an account using its account number.
-* Deposit money into an account.
-* Withdraw money from an account.
-* Check the current account balance.
-* Validate transaction amounts.
-* Prevent withdrawals exceeding the available balance.
-* Store account records in files for persistence, if implemented.
+## Features
 
-Technologies Used
+-   Create new bank accounts.
+-   View account details.
+-   Search for an account using its account number.
+-   Deposit money into an account.
+-   Withdraw money from an account.
+-   Check the current account balance.
+-   Validate transaction amounts.
+-   Prevent withdrawals that exceed the available balance.
+-   Store account records in files for persistence, if implemented.
 
-* Core Java
-* Object-Oriented Programming (OOP)
-* Java Collections Framework
-* Exception Handling
-* File Handling
-* Console-based User Interface
+## Technologies Used
 
-Project Structure
+-   **Language:** Java
+-   **Concepts:** Object-Oriented Programming (OOP)
+-   **Collections:** Java Collections Framework
+-   **Error Handling:** Exception handling
+-   **Storage:** File handling
+-   **Interface:** Console-based user interface
 
-Example structure:
+## Example Project Structure
 
+``` text
 BankingManagementSystem/
 ├── src/
 │   ├── Main.java
@@ -130,110 +158,146 @@ BankingManagementSystem/
 ├── data/
 │   └── accounts.txt
 └── README.md
+```
 
-Note: The filenames and directories above are examples. Use the actual structure of your project.
+*Note: This is an example structure. The actual filenames and
+directories may differ.*
 
-How to Run
+## How to Run
 
-Prerequisites
+### Prerequisites
 
-Install the Java Development Kit (JDK) and verify the installation:
+Install the Java Development Kit (JDK). JDK 8 or later may be suitable,
+depending on the Java features used by the project.
 
+Check your Java installation:
+
+``` bash
 java -version
 javac -version
+```
 
-Step 1: Navigate to the Project
+### Step 1: Open the Project Directory
 
-Open a terminal in the Banking Management System directory.
+Open a terminal in the Banking Management System directory:
 
+``` bash
 cd BankingManagementSystem
+```
 
-Step 2: Compile the Java Files
+### Step 2: Compile the Java Files
 
-If the source files are inside src/ and do not use package declarations:
+If the Java source files are directly inside `src/` and do not use
+package declarations, run:
 
+``` bash
 javac -d out src/*.java
+```
 
-Step 3: Run the Application
+This compiles the source files and places the generated `.class` files
+in the `out` directory.
 
-If the main class is named Main:
+### Step 3: Run the Application
 
+If the main class is named `Main`, run:
+
+``` bash
 java -cp out Main
+```
 
-The application will start and display its banking menu in the console.
+The application should start and display its banking menu.
 
-⸻
+*Note: Adjust these commands if your project uses packages, a different
+source directory, or a different main class name.*
 
-Requirements
+------------------------------------------------------------------------
 
-Before running either project, ensure that you have:
+# Requirements
 
-* Java JDK: JDK 8 or later, depending on the APIs used.
-* Code Editor: Visual Studio Code, IntelliJ IDEA, or Eclipse.
-* Terminal: Command Prompt, PowerShell, or a terminal application.
+Before running either project, ensure you have:
 
-No external libraries are required if the projects use only standard Java APIs.
+-   **Java Development Kit (JDK):** JDK 8 or later, depending on the
+    APIs used.
+-   **Code editor or IDE:** Visual Studio Code, IntelliJ IDEA, or
+    Eclipse.
+-   **Terminal:** Command Prompt, PowerShell, or a terminal application.
 
-⸻
+No external libraries are required if the projects use only standard
+Java APIs.
 
-Common Issues and Solutions
+------------------------------------------------------------------------
 
-1. Java Is Not Recognized
+# Common Issues and Solutions
 
-Problem: The terminal cannot find java or javac.
+## 1. Java Is Not Recognized
 
-Solution: Install a JDK and configure the system’s PATH environment variable.
+**Problem:** The terminal cannot find the `java` or `javac` command.
 
-2. Could Not Find or Load Main Class
+**Solution:** Install a JDK and configure the system's `PATH`
+environment variable.
 
-Problem: Java cannot locate the main class.
+## 2. Could Not Find or Load Main Class
 
-Solution: Verify the main class name and ensure that you are using the correct classpath.
+**Problem:** Java cannot locate the main class.
 
-3. Compilation Errors
+**Solution:** Verify the main class name and ensure that you are using
+the correct classpath.
 
-Problem: Java files fail to compile.
+## 3. Compilation Errors
 
-Solution: Check for syntax errors, missing files, incorrect filenames, and package declarations.
+**Problem:** Java files fail to compile.
 
-4. Data Is Lost After Restarting
+**Solution:** Check for syntax errors, missing files, incorrect
+filenames, and package declarations.
 
-Problem: Student or account records disappear when the application closes.
+## 4. Data Is Lost After Restarting
 
-Solution: Implement file-based or database persistence and load the saved records when the application starts.
+**Problem:** Student or account records disappear when the application
+closes.
 
-⸻
+**Solution:** Implement file-based or database persistence and load
+saved records when the application starts.
 
-Learning Outcomes
+## 5. Incorrect File Paths
+
+**Problem:** The application cannot locate its data files.
+
+**Solution:** Verify the file paths and ensure that the application has
+permission to read and write the files.
+
+------------------------------------------------------------------------
+
+# Learning Outcomes
 
 These projects provide practical experience with:
 
-* Java syntax and fundamentals.
-* Classes and objects.
-* Encapsulation and object-oriented programming.
-* Constructors and methods.
-* Conditional statements and loops.
-* Collections and data management.
-* Exception handling.
-* File input and output.
-* Input validation.
-* Menu-driven console applications.
+-   Java syntax and fundamentals.
+-   Classes and objects.
+-   Encapsulation and object-oriented programming.
+-   Constructors and methods.
+-   Conditional statements and loops.
+-   Collections and data management.
+-   Exception handling.
+-   File input and output.
+-   Input validation.
+-   Menu-driven console applications.
 
-⸻
+------------------------------------------------------------------------
 
-Future Enhancements
+# Future Enhancements
 
 Potential improvements for both projects include:
 
-* Integrating a MySQL database using JDBC.
-* Developing a graphical user interface using Java Swing or JavaFX.
-* Adding authentication and authorization.
-* Improving data validation and error handling.
-* Generating reports and exporting records.
-* Adding automated unit tests.
+-   Integrating a MySQL database using JDBC.
+-   Developing a graphical user interface using Java Swing or JavaFX.
+-   Adding authentication and authorization.
+-   Improving data validation and error handling.
+-   Generating reports and exporting records.
+-   Adding automated unit tests.
+-   Organizing the applications using a layered architecture.
 
-⸻
+------------------------------------------------------------------------
 
-Author
+# Author
 
-Developed as a Core Java learning project.
+**Developed as a Core Java learning project.**
